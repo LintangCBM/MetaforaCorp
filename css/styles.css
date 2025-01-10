@@ -349,80 +349,90 @@ main {
   color: #ffffff;
 }
 
-/* Who-We-Are Section */
+/* Who We Are Section */
 .who-we-are {
-  display: flex;
-  margin-top: 40px;
-}
-
-.who-we-are .container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+  padding: 40px 160px;
+  text-align: center;
 }
 
 .who-we-are .title {
-  text-align: center;
+  font-size: 2rem;
   margin-bottom: 20px;
 }
 
-.who-we-are .title h1 {
-  font-size: 2em;
-  margin: 0;
+.who-we-are .desc {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
 }
 
-.who-we-are .section {
-  margin: 40px 0;
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.who-we-are .section h2 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
-}
-
-.who-we-are .section p {
-  margin: 10px 0;
-}
-
-.who-we-are .values {
+.who-we-are .second-group,
+.who-we-are .third-group,
+.who-we-are .fourth-group {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  gap: 20px;
-  margin-top: 20px;
-}
-
-.who-we-are .value-box {
-  flex: 1;
-  background-color: #e9eef5;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.who-we-are .value-box img {
-  max-width: 60px;
-  margin-bottom: 10px;
-}
-
-.who-we-are .value-box h3 {
-  font-size: 1.2em;
-  margin: 10px 0;
-}
-
-.who-we-are .value-box p {
-  font-size: 0.95em;
-  color: #555;
+  margin-bottom: 40px;
 }
 
 .who-we-are .icon {
-  max-width: 100%;
-  height: auto;
+  width: 160px;
+  height: 160px;
+}
+
+.who-we-are .content {
+  flex: 1;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.who-we-are .content .title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.who-we-are .content .description {
+  font-size: 1rem;
+}
+
+/* Values Section */
+.values {
+  padding: 40px 160px;
+  text-align: center;
+}
+
+.values .title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.values .values-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.values .value-box {
+  background-color: #c9d6df;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+}
+
+.values .value-box .icon {
+  width: 80px;
+  height: 80px;
+}
+
+.values .value-box .value-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.values .value-box .value-description {
+  font-size: 1rem;
 }
 
 /* Footer Styles */
