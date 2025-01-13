@@ -55,12 +55,12 @@ header .login-btn {
   padding: 5px 15px;
   font-weight: bold;
   cursor: pointer;
+  transition: all 0.15s ease;
 }
 
 header .login-btn:hover {
   background-color: #52616b;
   color: white;
-  transition: 0.15s ease;
 }
 
 header .language-btn {
@@ -76,6 +76,7 @@ main {
   background-color: #f0f5f9;
 }
 
+/* Home Page */
 /* Description Section */
 .description {
   color: white;
@@ -113,12 +114,12 @@ main {
   padding: 10px 20px;
   cursor: pointer;
   font-size: 1rem;
+  transition: all 0.15s ease;
 }
 
 .description .buttons button:hover {
   background-color: white;
   color: black;
-  transition: 0.15s ease;
 }
 
 /* Demo Section */
@@ -151,12 +152,12 @@ main {
   border-radius: 15px;
   padding: 15px 30px;
   cursor: pointer;
+  transition: all 0.15s ease;
 }
 
 .demo .content button:hover {
   background-color: #c9d6df;
   color: #000000;
-  transition: 0.15s ease;
 }
 
 /* Service Package Section */
@@ -214,11 +215,11 @@ main {
   border-radius: 10px;
   padding: 10px 20px;
   cursor: pointer;
+  transition: all 0.15s ease;
 }
 
 .service-package .package button:hover {
   background-color: #1e2022;
-  transition: 0.15s ease;
 }
 
 /* Benefits Section */
@@ -271,6 +272,7 @@ main {
   object-fit: contain;
 }
 
+/* Blogs Page */
 /* Insights Section */
 .insights-section {
   text-align: center;
@@ -336,12 +338,12 @@ main {
   padding: 0.5rem 1rem;
   border: 1px solid #52616b;
   border-radius: 10px;
+  transition: all 0.15s ease;
 }
 
 .pagination a:hover {
   background-color: #52616b;
   color: #ffffff;
-  transition: 0.15s ease;
 }
 
 .pagination a.active {
@@ -349,18 +351,19 @@ main {
   color: #ffffff;
 }
 
+/* Who We Are Page */
 /* Who We Are Section */
 .who-we-are {
   padding: 40px 160px;
   text-align: center;
 }
 
-.who-we-are .title {
+.who-we-are h2 {
   font-size: 2rem;
   margin-bottom: 20px;
 }
 
-.who-we-are .desc {
+.who-we-are p {
   font-size: 1.2rem;
   margin-bottom: 40px;
 }
@@ -371,10 +374,9 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 40px;
 }
 
-.who-we-are .icon {
+.who-we-are img {
   width: 160px;
   height: 160px;
 }
@@ -386,12 +388,12 @@ main {
   text-align: left;
 }
 
-.who-we-are .content .title {
+.who-we-are .content h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
-.who-we-are .content .description {
+.who-we-are .content p {
   font-size: 1rem;
 }
 
@@ -401,7 +403,7 @@ main {
   text-align: center;
 }
 
-.values .title {
+.values h2 {
   font-size: 2rem;
   margin-bottom: 20px;
 }
@@ -421,18 +423,197 @@ main {
   flex: 1;
 }
 
-.values .value-box .icon {
+.values .value-box img {
   width: 80px;
   height: 80px;
 }
 
-.values .value-box .value-title {
+.values .value-box h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
-.values .value-box .value-description {
+.values .value-box p {
   font-size: 1rem;
+}
+
+/* Contact Us Page */
+/* Maps Section */
+.map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.map img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.map .map-content {
+  text-align: center;
+}
+
+.map button {
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1rem;
+  background-color: #f0f5f9;
+  border: 1px solid #52616b;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.map button:hover {
+  background-color: #52616b;
+  color: white;
+}
+
+/* Contact Section */
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.contact .container {
+  display: flex;
+  gap: 80px;
+}
+
+.contact .container .content {
+  max-width: 400px;
+  text-align: center;
+}
+
+.contact .container .content .buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #f0f5f9;
+  border: 1px solid #52616b;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.15s ease;
+}
+
+.contact button:hover {
+  background-color: #52616b;
+  color: white;
+}
+
+.contact .container .icons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.contact .container .icons img {
+  width: 80px;
+  height: auto;
+}
+
+/* Social Media Section */
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.social-media .container {
+  display: flex;
+  gap: 80px;
+}
+
+.social-media .container .icons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.social-media .container .icons img {
+  width: 80px;
+  height: auto;
+}
+
+.social-media .container .content {
+  max-width: 400px;
+  text-align: center;
+}
+
+.social-media .container .content .buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.social-media .container .content .buttons button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #f0f5f9;
+  border: 1px solid #52616b;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.social-media .container .content .buttons button:hover {
+  background-color: #52616b;
+  color: white;
+}
+
+/* Career Section */
+.career {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.career .container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.career .container .content {
+  text-align: center;
+}
+
+.career .container .content button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #f0f5f9;
+  border: 1px solid #52616b;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.career .container .content button:hover {
+  background-color: #52616b;
+  color: white;
+}
+
+.career .container img {
+  width: 400px;
+  height: auto;
 }
 
 /* Footer Styles */
