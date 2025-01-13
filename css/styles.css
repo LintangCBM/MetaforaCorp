@@ -481,7 +481,7 @@ main {
   font-size: 1rem;
 }
 
-.contact-us .button button:hover{
+.contact-us .button button:hover {
   background-color: rgb(165, 164, 164);
   color: black;
   transition: 0.15s ease;
